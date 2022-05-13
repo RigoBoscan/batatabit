@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) {
+
+    .sub-section{
+        overflow: auto;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .table-container{
+        margin-left: 0;
+    }
+
+    .table-container-two{
+        position: relative;
+        right: 0;
+    }
+
+}
+
+@media screen and (min-width: 1140px) {
+    .section-slider{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+
+    .container-section-two{
+        position: relative;
+        left: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 750px;
+        
+    }
+
+    .section-slider{
+        overflow: auto;
+    }
+}
